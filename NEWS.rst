@@ -4164,11 +4164,11 @@ Improved Documentation
   Thanks Alex Morega.
 - Fixed uninstall of packages from system Python for users of Debian/Ubuntu
   python-setuptools package (workaround until fixed in Debian and Ubuntu).
-- Added `get-pip.py <https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_
+- Added `get-pip.py <https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py>`_
   installer. Simply download and execute it, using the Python interpreter of
   your choice::
 
-    $ curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+    $ curl -O https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py
     $ python get-pip.py
 
   This may have to be run as root.
